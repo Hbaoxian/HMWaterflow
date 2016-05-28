@@ -27,9 +27,9 @@
 		819176CA1CFA4AAA0079BDDC /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 819176BD1CFA4AAA0079BDDC /* NSObject+MJMember.m */; };
 		819176CD1CFA4AF10079BDDC /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 819176CB1CFA4AF10079BDDC /* 1.plist */; };
 		819176CE1CFA4AF10079BDDC /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 819176CC1CFA4AF10079BDDC /* 2.plist */; };
-		819176D11CFA4C390079BDDC /* HBXWaterFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819176D01CFA4C390079BDDC /* HBXWaterFlowViewController.m */; };
 		819176DB1CFA50840079BDDC /* HBXFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819176D91CFA50840079BDDC /* HBXFirstViewController.m */; };
 		819176DC1CFA50840079BDDC /* HBXFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 819176DA1CFA50840079BDDC /* HBXFirstViewController.xib */; };
+		819176DF1CFA51A10079BDDC /* HBXWaterFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819176DE1CFA51A10079BDDC /* HBXWaterFlowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,11 +71,11 @@
 		819176BD1CFA4AAA0079BDDC /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
 		819176CB1CFA4AF10079BDDC /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = 1.plist; path = HMWaterflow/1.plist; sourceTree = "<group>"; };
 		819176CC1CFA4AF10079BDDC /* 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = 2.plist; path = HMWaterflow/2.plist; sourceTree = "<group>"; };
-		819176CF1CFA4C390079BDDC /* HBXWaterFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXWaterFlowViewController.h; sourceTree = "<group>"; };
-		819176D01CFA4C390079BDDC /* HBXWaterFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXWaterFlowViewController.m; sourceTree = "<group>"; };
 		819176D81CFA50840079BDDC /* HBXFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXFirstViewController.h; sourceTree = "<group>"; };
 		819176D91CFA50840079BDDC /* HBXFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXFirstViewController.m; sourceTree = "<group>"; };
 		819176DA1CFA50840079BDDC /* HBXFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBXFirstViewController.xib; sourceTree = "<group>"; };
+		819176DD1CFA51A10079BDDC /* HBXWaterFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBXWaterFlowViewController.h; sourceTree = "<group>"; };
+		819176DE1CFA51A10079BDDC /* HBXWaterFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBXWaterFlowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,11 +116,11 @@
 				8191768E1CFA49D10079BDDC /* AppDelegate.m */,
 				819176901CFA49D10079BDDC /* ViewController.h */,
 				819176911CFA49D10079BDDC /* ViewController.m */,
-				819176CF1CFA4C390079BDDC /* HBXWaterFlowViewController.h */,
-				819176D01CFA4C390079BDDC /* HBXWaterFlowViewController.m */,
 				819176D81CFA50840079BDDC /* HBXFirstViewController.h */,
 				819176D91CFA50840079BDDC /* HBXFirstViewController.m */,
 				819176DA1CFA50840079BDDC /* HBXFirstViewController.xib */,
+				819176DD1CFA51A10079BDDC /* HBXWaterFlowViewController.h */,
+				819176DE1CFA51A10079BDDC /* HBXWaterFlowViewController.m */,
 				819176961CFA49D10079BDDC /* Assets.xcassets */,
 				819176981CFA49D10079BDDC /* LaunchScreen.storyboard */,
 				8191769B1CFA49D10079BDDC /* Info.plist */,
@@ -259,10 +259,10 @@
 				819176C71CFA4AAA0079BDDC /* MJTypeEncoding.m in Sources */,
 				819176921CFA49D10079BDDC /* ViewController.m in Sources */,
 				819176C01CFA4AAA0079BDDC /* MJArgument.m in Sources */,
+				819176DF1CFA51A10079BDDC /* HBXWaterFlowViewController.m in Sources */,
 				819176C11CFA4AAA0079BDDC /* MJConst.m in Sources */,
 				819176C61CFA4AAA0079BDDC /* MJType.m in Sources */,
 				8191768F1CFA49D10079BDDC /* AppDelegate.m in Sources */,
-				819176D11CFA4C390079BDDC /* HBXWaterFlowViewController.m in Sources */,
 				8191768C1CFA49D10079BDDC /* main.m in Sources */,
 				819176BE1CFA4AAA0079BDDC /* HMWaterflowView.m in Sources */,
 				819176C51CFA4AAA0079BDDC /* MJMethod.m in Sources */,

@@ -7,8 +7,11 @@
 //
 
 #import "HBXFirstViewController.h"
+#import "HBXWaterFlowViewController.h"
 
 @interface HBXFirstViewController ()
+
+- (IBAction)waterFlowAction:(id)sender;
 
 @end
 
@@ -34,4 +37,10 @@
 }
 */
 
+- (IBAction)waterFlowAction:(id)sender {
+    
+    HBXWaterFlowViewController *waterFlowController = [[HBXWaterFlowViewController alloc] init];
+    [self.navigationController pushViewController:waterFlowController animated:YES];
+    
+}
 @end
